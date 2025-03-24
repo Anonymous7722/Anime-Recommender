@@ -47,7 +47,7 @@ python3 setup.py
 ### 3️⃣ Run the Application
 
 ```bash
-streamlit run app.py
+python3 -m streamlit run app.py
 ```
 
 ### 4️⃣ Access the Web App
