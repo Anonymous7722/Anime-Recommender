@@ -83,7 +83,7 @@ Pull requests are welcome! If you have any ideas, feel free to fork the repo and
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Anonymous
 
 
  
