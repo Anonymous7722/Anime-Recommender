@@ -11,9 +11,9 @@ anime=pd.read_csv('anime-dataset-2023.csv')
 
 df=anime[['English name','Name','Score','Synopsis','Genres','Rank','Rating','Popularity','Image URL','Favorites']]
 
-df['English name']=np.where(df['English name']=='UNKNOWN',
-                            df['Name'],
-                            df['English name'])
+#df['English name']=np.where(df['English name']=='UNKNOWN',
+ #                           df['Name'],
+ #                           df['English name'])
 df[df['English name']=='UNKNOWN']
 
 df.drop_duplicates(subset=['English name'],keep='first',inplace=True)
@@ -23,7 +23,7 @@ df=df[df['Synopsis']!='No description available for this anime.']
 df.drop(columns=['Name'],inplace=True)
 
 df=df[df['Genres']!='UNKNOWN']
-df=df[df['Rating']!='UNKNOWN']
+#df=df[df['Rating']!='UNKNOWN']
 
 df=df.reset_index(drop=True)
 
