@@ -14,7 +14,7 @@ df=anime[['English name','Name','Score','Synopsis','Genres','Rank','Rating','Pop
 #df['English name']=np.where(df['English name']=='UNKNOWN',
  #                           df['Name'],
  #                           df['English name'])
-df[df['English name']=='UNKNOWN']
+df[df['English name']!='UNKNOWN']
 
 df.drop_duplicates(subset=['English name'],keep='first',inplace=True)
 
