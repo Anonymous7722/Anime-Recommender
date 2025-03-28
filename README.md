@@ -9,7 +9,7 @@ Welcome to the **Anime Recommendation System**! This project utilizes **Machine 
 - 🔍 **Search and Filter** to explore anime options
 - 🎭 **Genre-Based Suggestions** to match your mood
 
-## 🖥️ Demo
+## 🖥️ Demo's
 
 
 
